@@ -15,3 +15,4 @@ def get_schools():
         {'name': '123 Institute', 'location': 'Chicago'}
     ]
     return jsonify(schools)
+print("Starting development server")
