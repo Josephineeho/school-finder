@@ -17,3 +17,4 @@ def get_schools():
     return jsonify(schools)
 print("Starting development server")
 print("new line added")
+name = "Eho"
