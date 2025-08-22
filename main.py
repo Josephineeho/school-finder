@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-
+print("getting conflict")
 app.route('/')
 def home():
     return "<h1>Welcome to the Home Page!</h1>"
@@ -17,4 +17,5 @@ def get_schools():
     return jsonify(schools)
 print("Starting development server")
 print("new line added")
+name = "Eho"
 print("trying to get a conflict")
